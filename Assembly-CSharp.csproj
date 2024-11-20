@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Laser.cs" />
+    <Compile Include="Assets/UdpSender.cs" />
     <Compile Include="Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs" />
     <Compile Include="Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs" />
     <Compile Include="Assets/PlayerController.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs" />
     <Compile Include="Assets/AreaEffect.cs" />
     <Compile Include="Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs" />
+    <Compile Include="Assets/UdpReceiver.cs" />
+    <Compile Include="Assets/Payload.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc" />

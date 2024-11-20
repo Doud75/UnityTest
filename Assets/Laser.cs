@@ -10,14 +10,16 @@ public class Laser : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(0))
-        {
-            GameObject l = Instantiate(OneLaser);
-            l.transform.position = LaserSpawnPosition.transform.position;
-            l.transform.rotation = transform.rotation;
-            l.GetComponent<Rigidbody>().AddForce(l.transform.forward * LaserSpeed);
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(0)) {
+            Shoot();
         }
     }
 
-
+    public void Shoot()
+    {
+        GameObject l = Instantiate(OneLaser);
+        l.transform.position = LaserSpawnPosition.transform.position;
+        l.transform.rotation = transform.rotation;
+        l.GetComponent<Rigidbody>().AddForce(l.transform.forward * LaserSpeed);
+    }
 }

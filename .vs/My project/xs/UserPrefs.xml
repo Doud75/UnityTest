@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{32C3BDE6-E125-3128-82C1-25D0441455A3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Squeleton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Laser.cs">
     <Files>
       <File FileName="Assets/PlayerController.cs" Line="62" Column="6" />
-      <File FileName="Assets/Collectible.cs" Line="7" Column="5" />
-      <File FileName="Assets/AreaEffect.cs" Line="16" Column="9" />
-      <File FileName="Assets/Laser.cs" Line="14" Column="10" />
-      <File FileName="Assets/Squeleton.cs" Line="19" Column="80" />
+      <File FileName="Assets/Collectible.cs" />
+      <File FileName="Assets/AreaEffect.cs" />
+      <File FileName="Assets/Laser.cs" Line="26" Column="1" />
+      <File FileName="Assets/Squeleton.cs" />
+      <File FileName="Assets/UdpReceiver.cs" Line="21" Column="10" />
+      <File FileName="Assets/Payload.cs" />
+      <File FileName="Assets/UdpSender.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="My project" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Squeleton.cs" selected="True" />
-            </Node>
+            <Node name="Assets" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -21,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1f0b4f4b-8ce5-4cb4-9ab5-c81225afb4ce" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="10712077-364e-4d5a-8dfd-ab86fa4ebfa9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

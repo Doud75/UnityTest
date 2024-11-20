@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7768557, g: 0.38378912, b: 0.056152485, a: 1}
+  m_IndirectSpecularColor: {r: 0.61718786, g: 0.26562485, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -396,6 +396,39 @@ MonoBehaviour:
   OneLaser: {fileID: 7321464655327565486, guid: c90fd0a51b7e742e39e2abb7c4b29089, type: 3}
   LaserSpeed: 500
   LaserSpawnPosition: {fileID: 1172072974}
+--- !u!114 &805983497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805983488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc64d9c9d2244f288e1395d1a8b93e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  squeleton: {fileID: 235670485}
+--- !u!114 &805983498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805983488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e79098d349e4ac1bebdac23f5edd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestinationPort: 25000
+  DestinationIP: 127.0.0.1
+  payload:
+    type: 
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+  player: {fileID: 1968559095}
 --- !u!1 &1172072974
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,6 +556,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5518846384457087180, guid: 2a49766a6038348f6b332c428226dc53, type: 3}
       insertIndex: -1
       addedObject: {fileID: 805983496}
+    - targetCorrespondingSourceObject: {fileID: 5518846384457087180, guid: 2a49766a6038348f6b332c428226dc53, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 805983497}
+    - targetCorrespondingSourceObject: {fileID: 5518846384457087180, guid: 2a49766a6038348f6b332c428226dc53, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 805983498}
   m_SourcePrefab: {fileID: 100100000, guid: 2a49766a6038348f6b332c428226dc53, type: 3}
 --- !u!1 &1903443347
 GameObject:

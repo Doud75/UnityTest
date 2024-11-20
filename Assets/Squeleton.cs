@@ -16,6 +16,11 @@ public class Squeleton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<NavMeshAgent>().SetDestination(Target.transform.position);
+        
+    }
+
+    public void Moove(Vector3 position)
+    {
+        GetComponent<NavMeshAgent>().SetDestination(position);
     }
 }
